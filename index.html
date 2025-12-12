@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 18th Birthday Trisha!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Confetti -->
+    <div id="confetti-container"></div>
+
+    <!-- Background Hearts -->
+    <div class="heart-bg heart-1">♥</div>
+    <div class="heart-bg heart-2">♥</div>
+    <div class="heart-bg heart-3">♥</div>
+    <div class="heart-bg heart-4">♥</div>
+    <div class="heart-bg heart-5">♥</div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#hero">Birthdays</a>
+            <a href="#story">Our Story</a>
+            <a href="#memories">Best Memories✨</a>
+            <a href="#messages">Messages</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-left">
+            <h1>Happy 17th<br>Birthday,<br>Trisha!</h1>
+            
+            <div class="countdown">
+                <h3>Countdown ❤️‍🩹</h3>
+                <div class="timer">
+                    <div class="time-unit">
+                        <div class="number" id="days">00</div>
+                        <div class="label">Days</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number">:</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number" id="hours">00</div>
+                        <div class="label">Hours</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number">:</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number" id="minutes">00</div>
+                        <div class="label">Minutes</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number">:</div>
+                    </div>
+                    <div class="time-unit">
+                        <div class="number" id="hours-label">00</div>
+                        <div class="label">Hours</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-center">
+            <button class="carousel-nav prev" onclick="changeSlide(-1)">‹</button>
+            <div class="photo-frame" id="photoFrame">
+                <img src="/images/2.jpg" alt="Sarah" class="active">
+                <img src="/images/1.jpg" alt="Sarah">
+                <img src="/images/3.jpg" alt="Sarah">
+                <img src="/images/4.jpg" alt="Sarah">
+                <img src="/images/5.jpg" alt="Sarah">
+            </div>
+            <button class="carousel-nav next" onclick="changeSlide(1)">›</button>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+            <span class="dot" onclick="goToSlide(4)"></span>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section id="story">
+        <h2>Our Story</h2>
+        <div class="story-content">
+            I first saw her during Saraswati Puja. Not in some dramatic slow-motion way — just one clear moment that stuck with me for no logical reason. She had this calm presence, like she didn’t need to try to be noticed.<br> I didn’t expect anything out of it. Random faces at a festival usually disappear from life instantly.<br> A few days later, I walked into my tuition class like any normal day… and there she was. Same girl from the puja. Same silent confidence, Same look and  she made eye contact with me for the first time, which made me want to talk to her.<br> That coincidence felt too perfect to overlook.<br> At first, we didn’t talk. Just exchanged glances — quick, careful, stupidly shy. Those tiny moments made the entire tuition hour feel different. <br>Eventually, the silence became pointless. We started meeting secretly, away from the noise and the gossip. Those hidden minutes became the best part of my day. No filters, no pretending -- just two people actually understanding each other.</p>
+            <p>Somewhere in those quiet meetings, something real formed. Not instantly, not like in movies… but slowly, honestly.<br>And now, two years later, we’re still together. Not because everything was easy or dramatic, but because we kept choosing each other. Through mess, through distance, through everything.</p>
+<p>We had many arguments between us—small fights that sometimes pushed me to block her again and again. But from the very beginning, one thing was always clear: she never gave up on us. Every time I walked away, she understood her mistake and came back first, just to make things normal again, just like before.</p>
+
+<p>That’s when I began to realize… she was truly special.She came back not just because she was wrong, but because she loved me—more than she ever said in words.</p>
+
+<p>Slowly, I started to understand her silent love… her care… her effort. And somewhere along the way, I fell in love with her deeply. She didn’t tell me she loved me, but every time she returned, her actions spoke louder than any words ever could. And that’s when I knew—she was the one who made me fall in love, completely and truly.</p>
+                <strong>
+                    Our story didn’t explode.<br>
+It grew — quietly, steadily, beautifully.
+                </strong>
+            </p>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/images/11.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="/images/12.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="/images/13.jpg" alt="Gallery 3">
+            </div>
+        </div>
+    </section>
+    
+    <!-- Gifts Gallery -->
+    <section id="gallery">
+        <h2>Best Memories ✨</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="/images/21.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery-item">
+                <img src="/images/22.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery-item">
+                <img src="/images/23.jpg" alt="Gallery 3">
+            </div>
+        </div>
+    </section>
+
+    <!-- Wishes & Messages -->
+    <section id="messages" class="wishes-section">
+        <h2>Wishes & Messages📜</h2>
+        <p class="wishes-intro">Happy Birthday, my <strong>Trisha!</strong><br>
+You are the gentle rhythm in my <strong>Heart</strong> and the sweetest poem in my <strong>Life</strong>.
+Your <strong>Smile</strong> feels like <strong>Magic</strong>, <strong>Your Love</strong> feels like <strong>Home</strong>,
+and every day with <strong>you Reminds</strong> me how <strong>Lucky I am</strong> to have <strong>You</strong>. <br>
+</p>
+<p class="wishes-intro"><strong>Stay well, stay happy — that’s all I ever want for you.
+And please, never leave me… not ever.<br>
+Enjoy your day, my love.</strong>🌸</p>
+    </section>
+    
+        <!-- Gifts Gallery -->
+    <section id="gallery">
+        <h2>Sudip's favourite Sairy only for Trisha(Nikita)...💜</h2>
+        <p class="wishes-intro">
+            512GB RAM ki kasam…<br>
+Main tumhe kabhi hang hone nahi dunga.<br>
+Zindagi chahe kitni bhi load dale,<br>
+Main tumhare saath background process ki tarah hamesha chalta rahunga.
+        </p>
+        <p class="wishes-intro">
+            Jab baaki log tumhare notifications mute kar denge,<br>
+Main tumhara primary wallpaper ban kar saamne khada rahunga.
+        </p>
+        <p class="wishes-intro">
+            Logon ka pyaar trial version hota hai —<br>
+Time complete hua, expire ho gaya.<br>
+Par main?<br>
+Lifetime premium support hoon… bina kisi subscription ke.
+        </p>
+        <p class="wishes-intro">
+            Agar duniya tumhari battery drain kare,<br>
+Main tumhara fast charger ban jaunga.<br>
+Agar tumhari emotions freeze ho jaye,<br>
+Main tumhe soft restart karke phir se normal kar dunga.
+        </p>
+        <p class="wishes-intro">
+            Tum bas ek baat yaad rakhna…<br>
+512GB RAM ki kasam —<br>
+Main tumhari life ko kabhi lag nahi hone dunga
+        </p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-socials">
+            <a href="https://www.facebook.com/share/1C6F7nxooT/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sudip_status_creation?igsh=NGgyNWszNHkzNjNr"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+        </div>
+        <p>
+            <strong>
+                Made from my heart to connect your heart...❣️
+            </strong>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
